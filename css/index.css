@@ -1,1 +1,25 @@
-/* fichier css */
+.z-i-1 {
+    position: absolute;
+    z-index: 1;
+}
+.z-i-2 {
+    position: absolute;
+    z-index: 2;
+}
+.z-i-3 {
+    position: absolute;
+    z-index: 3;
+}
+.z-i-4 {
+    position: absolute;
+    z-index: 4;  
+}
+.z-i-5 {
+    position: absolute;
+    z-index: 5; 
+}
+
+.bg-vignette-cover {
+    background-color: white;
+    opacity: 0.7;
+}
