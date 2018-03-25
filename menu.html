@@ -1,0 +1,110 @@
+<!DOCTYPE HTML lang="fr">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- Lien utile : http://tutowebdesign.com/bien-demarrer-bootstrap-4.php -->
+		<!-- Pour le responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<!-- Cette déclaration ne concerne que le navigateur Internet Explorer. 
+			 Elle permet de s'assurer qu'il utilise la dernière version 
+			 du moteur de rendu. Notez que cette ligne ne passe pas la validation W3C. 
+		-->
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- Appel du CSS BootStrap 4.0 -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+		<!-- Notre CSS -->
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<title>Macaque Furieux</title>
+</head>
+<body>
+	<!-- 1er Header du site-->
+	<header class="container-fluid">
+		<!-- Barre réseaux, à propos, RadioTélévisé-->
+		<div class="row">
+				<!-- Contenu aligné en haut à droite -->
+				<div class="col-4">
+					<!-- zone réseaux sociaux -->
+					<div>
+						<span>Suivez nous sur :</span>
+						<a class="logo-sn facebook" target="_blank" href="https://www.facebook.com/rts.ch"></a>
+               			<a class="logo-sn twitter" target="_blank" href="https://twitter.com/radiotelesuisse?lang=fr"></a>
+                		<a class="logo-sn instagram" target="_blank" href="https://www.instagram.com/radiotelevisionsuisse/"></a>
+					</div>
+					<!-- zone about -->
+					<div>
+						<div class="about"><a href="//www.rtsentreprise.ch/">A propos | Radio Télévision Suisse</a></div>
+					</div>
+				</div>
+		</div>
+		<!-- Barre de navigation -->
+		<nav class="navbar navbar-toogleable-md navbar-dark bg-dark navbar-expand-md">
+			<!-- Logo ma RTS -->
+			<a class="navbar-brand" href="www.rts.ch"></a>
+			<!-- div qui regroupe tout le menu -->
+			<div id="navbarsExampleDefault" class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="www.rts.ch/info/">info</a></li>
+					<li class="nav-item"><a class="nav-link" href="www.rts.ch/sport/">sport</a></li>
+					<li class="nav-item"><a class="nav-link" href="www.rts.ch/info/culture/">culture</a></li>
+					<li class="nav-item"><a class="nav-link" href="www.rts.ch/play/">play</a></li>
+					<!-- Menu déroulant -->
+					<li class="nav-item dropdown">
+						<a id="dropdown01" class="nav-link dropdown-toggle" href="#" data-toogle="dropdown" aria-haspopup="true" aria-expanded="false">radio</a>
+						<!-- sous-menu -->
+						<div class="dropdown-menu" aria-labelledby="dropdown01">
+							<a class="dropdown-item" href="www.rts.ch/emissions-az/radio/">emissions a-z</a>
+							<a class="dropdown-item" href="//programmesradio.rts.ch/la-1ere/">la 1ère</a>
+							<a class="dropdown-item" href="//programmesradio.rts.ch/espace-2/">espace 2</a>
+							<a class="dropdown-item" href="//programmesradio.rts.ch/couleur3/">couleur 3</a>
+							<a class="dropdown-item" href="//programmesradio.rts.ch/option-musique/">option musique</a>
+							<a class="dropdown-item" href="www.rts.ch/audio/">en direct</a>
+						</div>
+					</li>
+					<!-- Menu déroulant -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toogle="dropdown" aria-haspopup="true" aria-expanded="false">tv</a>
+						<!-- sous-menu -->
+						<div class="dropdown-menu" aria-labelledby="dropdown02">
+							<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
+							<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
+							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="//programmes.rts.ch">programme tv</a></li>
+					<li class="nav-item"><a class="nav-link" href="www.rts.ch/play/meteo/">météo</a></li>
+					<!-- Menu déroulant -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toogle="dropdown" aria-haspopup="true" aria-expanded="false">plus</a>
+						<!-- sous-menu -->
+						<div class="dropdown-menu" aria-labelledby="dropdown03"></div>
+							<a class="dropdown-item" href="www.rts.ch/emissions/series/toutes-les-series">séries</a>
+							<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
+							<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
+							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
+							<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
+							<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
+							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
+							<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
+							<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
+							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
+							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- barre de recherche -->
+			<div>
+				<form>
+					<!-- logo loupe -->
+					<button type="submit"></button>
+					<input name="q" placeholder="RECHERCHE" type="text">
+				</form>
+			</div>
+		</nav>
+	</header>
+	<!-- Appel du JS Bootstrap, en bas de page pour ne pas ralentir -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
