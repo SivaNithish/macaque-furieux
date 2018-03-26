@@ -1,3 +1,4 @@
+/* Déclaration de class pour les z-index, de 1 à 5 */
 .z-i-1 {
     position: absolute;
     z-index: 1;
@@ -18,8 +19,61 @@
     position: absolute;
     z-index: 5; 
 }
-
-.bg-vignette-cover {
+/* Zone de texte de l'image de couverture du site */
+#vignette {
+    position: absolute;
+    right: 100px;
+    bottom: -600px;
     background-color: white;
     opacity: 0.7;
+}
+/* Menu principal */
+body > header {
+    background-color: #333333;
+    color: white;
+}
+header > div {
+    background-color: #000;
+    height: 36px;
+    position: relative;
+    font-size:13px;
+}
+#menuPrincipal  {
+    background-color: #333333;
+    color: white;
+}
+
+/* Section : En direct */
+#header-en-direct {
+    margin-bottom: 12.5px;
+    padding-bottom: .2em;
+    width: 100%;
+}
+    /* on peut réutiliser l'en-tête pour les zones qui y ressemblent */
+.en-tete {
+    height:2.8rem;
+    border-bottom: 1px solid #999999;
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    font-style: normal;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    color: #999999;
+}
+/* pour le conteneur des radios */
+.radio {
+    width:33%;
+    color:#333333;
+    line-height: 1.42;
+}
+.radio > div {
+    border-bottom: 1px solid #999999;
+    height: 4.2rem;
+    line-height: 4.2rem;
+}
+.radio-img {
+    height:90px;
+    width:42px;
 }
