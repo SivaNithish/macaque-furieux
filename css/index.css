@@ -110,7 +110,37 @@ button:active
 /* FIN GENERAL */
 
 /* CONCOURS */
+.concours-super-class
+{
+    padding: 10px;
+}
 
+.concours-cards
+{
+    border: 2px solid gray;
+    size: 250px 100px;
+}
+
+.concours-cards h2, p
+{
+    display: inline;
+    color: black;
+}
+
+.concours-img
+{
+    size: 200px 100px;
+}
+
+#concours-gauche
+{
+    padding-left: none;
+}
+
+#concours-droite
+{
+    padding-right: none;
+}
 /* FIN CONCOURS */
 
 /* FOOTER */
