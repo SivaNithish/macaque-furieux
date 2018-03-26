@@ -49,6 +49,11 @@ a:hover
     text-decoration: underline;
 }
 
+.button-link:hover /* POUR LES LIENS DANS LES BOUTONS */
+{
+    text-decoration: none;
+}
+
 ul
 {
     list-style-type: none;
@@ -94,7 +99,7 @@ button:active
     min-width: 2.8em;
     width: 20em;
 }
-}
+
 /* FIN GENERAL */
 
 /* CONCOURS */
