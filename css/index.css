@@ -80,3 +80,76 @@ header > div {
     height:90px;
     width:42px;
 }
+
+a:hover
+{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.button-link:hover /* POUR LES LIENS DANS LES BOUTONS */
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+
+}
+
+.pointer /* POUR DEFINIR UNE MAIN COMME CURSEUR */
+{
+    cursor: pointer;
+}
+
+button
+{
+    text-align: center;
+    opacity: 0.5;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 2.8em;
+}
+
+button:active
+{
+    border: none;
+}
+
+.buttons-1 /* POUR TOUS LES BOUTONS DANS UNE SECTION AU FOND SOMBRE */
+{
+    color: #cccccc;
+    background-color: #4d4d4d;
+    min-width: 2.8em;
+    width: 20em;
+}
+
+.buttons-2 /* POUR TOUS LES BOUTONS DANS UNE SECTION AU FOND CLAIR */
+{
+    color: #999999;
+    background-color: #e6e6e6;
+    min-width: 2.8em;
+    width: 20em;
+}
+
+/* FIN GENERAL */
+
+/* CONCOURS */
+
+/* FIN CONCOURS */
+
+/* FOOTER */
+.footer-class /* class pour tout le footer */
+{
+    background-color: #131313;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
