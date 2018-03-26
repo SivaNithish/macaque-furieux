@@ -1,0 +1,86 @@
+<!DOCTYPE HTML lang="fr">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<!-- Pour le responsive -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<!-- Cette déclaration ne concerne que le navigateur Internet Explorer. 
+			 Elle permet de s'assurer qu'il utilise la dernière version 
+			 du moteur de rendu. Notez que cette ligne ne passe pas la validation W3C. 
+		-->
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- Appel du CSS BootStrap 4.0 -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+		<!-- Notre CSS -->
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<title>Macaque Furieux</title>
+</head>
+<body>
+	<!-- en direct -->
+    <section id="en-direct" class="container-fluid d-block">
+		<!-- zone défini -->
+		<div class="row col-10 ml-md-auto mr-md-auto position-relative d-block en-tete">
+                <!-- Titre de section -->
+                <header id="header-en-direct" class="position-absolute"><h1>En direct</h1></header>
+        </div>
+        <div class="row col-10 ml-md-auto mr-md-auto position-relative">
+            <!-- trois bloc pour la RTS UN/DEUX et INFO -->
+                <div class="d-inline-block position-relative col-8">
+					<!-- RTS UN -->
+					<div></div>
+					<!-- RTS deux -->
+					<div></div>
+					<!-- RTS INFO -->
+					<div></div>
+                </div>
+                <!-- Radio -->
+                <div class="d-block position-relative col-4 radio">	
+                    <div>
+                        <a href="">
+                            <!-- logo de la radio -->
+                            <div><!--<img class="radio-img" src="img/logo-1ere.png" alt="logo-radio-1ere" >--></div>
+                            <!-- texte -->
+                            <div>Vertigo</div>
+                            <!-- logo audio -->
+                            <div><img></div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <!-- logo de la radio -->
+                            <div><img></div>
+                            <!-- texte -->
+                            <div>Magnétique</div>
+                            <!-- logo audio -->
+                            <div><img></div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <!-- logo de la radio -->
+                            <div><img></div>
+                            <!-- texte -->
+                            <div>Calmos</div>
+                            <!-- logo audio -->
+                            <div><img></div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <!-- logo de la radio -->
+                            <div><img></div>
+                            <!-- texte -->
+                            <div>Option Musique en direct</div>
+                            <!-- logo audio -->
+                            <div><img></div>
+                        </a>
+                    </div>                
+                </div>
+		</div>
+	</section>
+    	<!-- Appel du JS Bootstrap, en bas de page pour ne pas ralentir -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
