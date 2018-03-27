@@ -28,10 +28,16 @@
     opacity: 0.7;
 }
 /* Menu principal */
+body > footer
+{
+    border-top: 3px solid #af001e;
+}
+
 body > header {
     background-color: #333333;
     color: white;
 }
+
 header > div {
     background-color: #000;
     height: 36px;
@@ -95,6 +101,7 @@ a:hover
 
 .h1 /* POUR TOUS LES H1 DANS LES SECTIONS / ARTICLES */
 {
+    display: inline;
     font-size: 2.3rem;
     line-height: 2.8rem;
     color: #999999;
@@ -113,6 +120,7 @@ li
 button
 {
     text-align: center;
+    display: inline;
     opacity: 0.5;
     border-radius: 5px;
     border: none;
@@ -149,44 +157,74 @@ button:active
 /* FIN GENERAL */
 
 /* CONCOURS */
-.concours-super-class
-{
-    padding: 10px;
-}
 
-.concours-cards
-{
-    border: 2px solid gray;
-    size: 250px 100px;
-}
 
-.concours-cards h2, p
-{
-    display: inline;
-    color: black;
-}
-
-.concours-img
-{
-    size: 200px 100px;
-}
-
-#concours-gauche
-{
-    padding-left: none;
-}
-
-#concours-droite
-{
-    padding-right: none;
-}
 /* FIN CONCOURS */
 
 /* FOOTER */
 .footer-class /* class pour tout le footer */
 {
+    color: white;
     background-color: #131313;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
+
+.footer-class a, p
+{
+    color: white;
+}
+
+.footer-super-class
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer-ul
+{
+    display: block;
+}
+
+.footer-li /* liens en bas de page du footer */
+{
+    display: inline;
+}
+
+.footer-ul-4 /*liste des liens en bas de page footer */
+{
+    text-align: right;
+    border-bottom: 1px solid #333333;
+}
+
+.footer-li-4
+{
+    color: #333333;
+}
+
+.footer-end
+{
+    vertical-align: bottom;
+}
+
+.footer-end p
+{
+    display: inline;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+#logo-RTS-footer
+{
+
+}
+
+#logo-SRG-SSR-footer
+{
+    vertical-align: bottom;
+    padding-bottom: 2px;
+}
+/* FIN FOOTER */
