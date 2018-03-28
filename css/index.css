@@ -211,6 +211,16 @@ a:hover
     color: #999999;
 }
 
+.link-cards
+{
+    text-decoration: none;
+}
+
+.link-cards:hover
+{
+    text-decoration: none;
+}
+
 .button-link
 {
     width: 20em; /*Même taille que le bouton */
@@ -230,6 +240,11 @@ a:hover
     font-size: 2.3rem;
     line-height: 2.8rem;
     color: #999999;
+}
+
+.hidden /* POUR CACHER LE BORD BLANC A DROITE QUAND CLASS ROW */
+{
+    margin-right: 10px;
 }
 
 ul
@@ -283,45 +298,89 @@ button:active
     background-color: #666666;
 }
 
-.body-section
+.body-section /* POUR CENTRER LES SECTIONS NE FONCTIONNE PAS SUR LE FOOTER POURQUOI ? */
 {
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 15%;
 }
-
 /* FIN GENERAL */
+
+/* SECTION VIDEO 2 */
+#videos-art1
+{
+    background-image: url("./img/singe-video6.jpg");
+    background-color: #666666;
+    height: 250px;
+}
+
+#videos-art2
+{
+    background-image: url("./img/singe-video5.jpg");
+    background-color: #666666;
+    height: 250px;
+}
+
+#videos-art3
+{
+    background-image: url("./img/canard-video.jpg");
+    background-color: #666666;
+    height: 250px;
+}
+
+.videos-img
+{
+    z-index: -1;
+}
+
+/* FIN SECTION VIDEO 2 */
 
 /* SECTION PLUS */
 #section-plus
 {
     background-color: white;
+    margin-right: 20%;
 }
 
-/* SECTION PLUS */
-
-/*SECION RECOMMANDATION */
-/*#recommandation
+#plus-ligne1
 {
     padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left: 15%;
-}*/
+}
 
+#plus-ligne2
+{
+    padding-bottom: 15px;
+    /*margin-right: 24.5%;*/
+}
+
+.plus-cards
+{
+    padding: 0px;
+}
+
+.plus-cards h5
+{
+    color: red;
+}
+
+.plus-cards p
+{
+    color: black;
+}
+
+
+.plus-div-img
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* FIN SECTION PLUS */
+
+/*SECION RECOMMANDATION */
 #recommandation-link
 {
     float: right;
     padding-right: 17%;
-}
-
-#hidden1
-{
-    margin-right: 10px;
-}
-
-#hidden2
-{
-    margin-right: 10px;
 }
 
 .section-video
@@ -362,13 +421,19 @@ button:active
 /* CONCOURS */
 .concours-super-class
 {
-    padding: 0px;
-    margin: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
     background-color: white;
     height: 210px;
     max-height: 210px;
+}
+
+#concours-gauche
+{
+    margin-right: 5%;
+}
+
+#concours-droite
+{
+    margin-left: 5%;
 }
 
 #concours-header-title
