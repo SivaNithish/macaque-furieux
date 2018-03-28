@@ -17,24 +17,35 @@
 	<title>Footer RTS</title>
 </head>
 <body>
-	<section class=""> <!-- section CONCOURS A LA CON -->
-		<h1 class="h1">Concours maRTS</h1>
-		<a href="" target="" class="button-link">
-			<button type="button" class="buttons-2">Autres concours</button>
-		</a>	
-		<div class="">
-			<a href="" target="_blank">
-				<img class="" src="./Images/singe-savant.jpg" alt="Suprise ! C'était une image !">
-				<h2>Concours débile</h2>
-				<p>Venez gagner un nouveau foie !</p>
-			</a>	
-		</div>
-		<div class="">
-			<a href="" target="_blank">
-				<img src="./Images/singe-etonne.jpg" alt="Surprise ! Une autre image !" title="Un super titre">
-				<h2>Concours débile, le retour</h2>
-				<p>Gagnez une année de banane !</p>
-			</a>
+	<section class="concours-super-class"> <!-- section CONCOURS A LA CON -->
+		<div class="row">
+			<h1 class="h1 col-6" id="concours-header-title">Concours maRTS</h1>
+			<div id="col-6 concours-header-button">
+				<a href="" target="" class="button-link ml-md-auto">
+					<button type="button" class="buttons-2" id="concours-button">Autres concours</button>
+				</a>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-5 concours-cards">
+				<a href="" target="_blank" class="link-cards">
+					<img src="./Images/singe-savant.jpg" alt="Suprise ! C'était une image !" class="concours-img">
+					<div class="">
+						<h2>Concours débile</h2>
+						<p>Venez gagner un nouveau foie !</p>
+					</div>
+				</a>	
+			</div>
+			<span class="col-1"></span>
+			<div class="col-5 concours-cards">
+				<a href="" target="_blank" class="link-cards">
+					<img src="./Images/singe-etonne.jpg" alt="Surprise ! Une autre image !" title="Un super titre" class="concours-img">
+					<div class="concours-cards-body">
+						<h2>Concours débile, le retour</h2>
+						<p>Gagnez une année de banane !</p>
+					</div>
+				</a>
+			</div>
 		</div>
 	</section>
 </body>
