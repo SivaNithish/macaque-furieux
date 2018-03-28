@@ -69,23 +69,31 @@ header > div {
     color: #999999;
 }
 /* pour le conteneur des radios */
-.radio {
+#radio {
     width:33%;
     color:#333333;
     line-height: 1.42;
 }
-.radio > div {
+#radio > div{
     border-bottom: 1px solid #999999;
-    height: 4.2rem;
-    line-height: 4.2rem;
 }
-.radio-div-left {
-
+#radio > div > a > div {
+    height:43px;
 }
-.radio-img {
-    height:90px;
+.radio-img-left {
+    height:42px;
     width:42px;
 }
+
+.radio-txt-mid {
+    width:100%;
+}
+
+.radio-img-right {
+    height:36px;
+    width:36px;
+}
+
 
 a:hover
 {
