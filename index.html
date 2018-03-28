@@ -19,109 +19,114 @@
 <body>
 	<!-- 1er Header du site-->
 	<header class="container-fluid">
-		<!-- Barre réseaux, à propos, RadioTélévisé-->
-		<div class="row">
-				<!-- Contenu aligné en haut à droite -->
-				<div class="col-4">
-					<!-- zone réseaux sociaux -->
-					<div>
-						<span>Suivez nous sur :</span>
-						<a class="logo-sn facebook" target="_blank" href="https://www.facebook.com/rts.ch"></a>
-               			<a class="logo-sn twitter" target="_blank" href="https://twitter.com/radiotelesuisse?lang=fr"></a>
-                		<a class="logo-sn instagram" target="_blank" href="https://www.instagram.com/radiotelevisionsuisse/"></a>
+			<!-- Barre réseaux, à propos, RadioTélévisé-->
+			<div class="row">
+					<!-- Contenu aligné en haut à droite -->
+					<div class="col-5 ml-md-auto">
+						<!-- zone réseaux sociaux -->
+						<div class="d-inline-block">
+							<span>Suivez nous sur :</span>
+							<a class="logo-sn facebook" target="_blank" href="https://www.facebook.com/rts.ch">FB</a>
+							   <a class="logo-sn twitter" target="_blank" href="https://twitter.com/radiotelesuisse?lang=fr">T</a>
+							<a class="logo-sn instagram" target="_blank" href="https://www.instagram.com/radiotelevisionsuisse/">I</a>
+						</div>
+						<!-- zone about -->
+						<div class="d-inline-block ml-md-4">
+							<div class="about"><a href="//www.rtsentreprise.ch/">A propos | Radio Télévision Suisse</a></div>
+						</div>
 					</div>
-					<!-- zone about -->
-					<div>
-						<div class="about"><a href="//www.rtsentreprise.ch/">A propos | Radio Télévision Suisse</a></div>
-					</div>
+			</div>
+			<!-- Barre de navigation -->
+		<nav class="navbar navbar-toogleable-md navbar-dark navbar-expand-md" id="menuPrincipal">
+				<!-- Logo ma RTS -->
+				<a class="navbar-brand" href="www.rts.ch">Ma RTS</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- div qui regroupe tout le menu -->
+				<div class="collapse navbar-collapse" id="menuDeroulant">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link" href="www.rts.ch/info/">info</a></li>
+						<li class="nav-item"><a class="nav-link" href="www.rts.ch/sport/">sport</a></li>
+						<li class="nav-item"><a class="nav-link" href="www.rts.ch/info/culture/">culture</a></li>
+						<li class="nav-item"><a class="nav-link" href="www.rts.ch/play/">play</a></li>
+						<!-- Menu déroulant -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">radio</a>
+							<!-- sous-menu -->
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="www.rts.ch/emissions-az/radio/">emissions a-z</a>
+								<a class="dropdown-item" href="//programmesradio.rts.ch/la-1ere/">la 1ère</a>
+								<a class="dropdown-item" href="//programmesradio.rts.ch/espace-2/">espace 2</a>
+								<a class="dropdown-item" href="//programmesradio.rts.ch/couleur3/">couleur 3</a>
+								<a class="dropdown-item" href="//programmesradio.rts.ch/option-musique/">option musique</a>
+								<a class="dropdown-item" href="www.rts.ch/audio/">en direct</a>
+							</div>
+						</li>
+						<!-- Menu déroulant -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">tv</a>
+							<!-- sous-menu -->
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
+								<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
+								<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="//programmes.rts.ch">programme tv</a></li>
+						<li class="nav-item"><a class="nav-link" href="www.rts.ch/play/meteo/">météo</a></li>
+						<!-- Menu déroulant -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								plus
+							</a>
+							<!-- sous-menu -->
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="#">séries</a>
+								<a class="dropdown-item" href="#">tv</a>
+								<a class="dropdown-item" href="#">programme tv</a>
+								<a class="dropdown-item" href="#">en direct</a>
+								<a class="dropdown-item" href="#">tv</a>
+								<a class="dropdown-item" href="#">programme tv</a>
+								<a class="dropdown-item" href="#">en direct</a>
+								<a class="dropdown-item" href="#">tv</a>
+								<a class="dropdown-item" href="#">programme tv</a>
+								<a class="dropdown-item" href="#">en direct</a>
+								<a class="dropdown-item" href="#">en direct</a>
+							</div>
+						</li>
+					</ul>
 				</div>
-		</div>
-		<!-- Barre de navigation -->
-		<nav class="navbar navbar-toogleable-md navbar-dark bg-dark navbar-expand-md">
-			<!-- Logo ma RTS -->
-			<a class="navbar-brand" href="www.rts.ch"></a>
-			<!-- div qui regroupe tout le menu -->
-			<div id="navbarsExampleDefault" class="collapse navbar-collapse">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item"><a class="nav-link" href="www.rts.ch/info/">info</a></li>
-					<li class="nav-item"><a class="nav-link" href="www.rts.ch/sport/">sport</a></li>
-					<li class="nav-item"><a class="nav-link" href="www.rts.ch/info/culture/">culture</a></li>
-					<li class="nav-item"><a class="nav-link" href="www.rts.ch/play/">play</a></li>
-					<!-- Menu déroulant -->
-					<li class="nav-item dropdown">
-						<a id="dropdown01" class="nav-link dropdown-toggle" href="#" data-toogle="dropdown" aria-haspopup="true" aria-expanded="false">radio</a>
-						<!-- sous-menu -->
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="www.rts.ch/emissions-az/radio/">emissions a-z</a>
-							<a class="dropdown-item" href="//programmesradio.rts.ch/la-1ere/">la 1ère</a>
-							<a class="dropdown-item" href="//programmesradio.rts.ch/espace-2/">espace 2</a>
-							<a class="dropdown-item" href="//programmesradio.rts.ch/couleur3/">couleur 3</a>
-							<a class="dropdown-item" href="//programmesradio.rts.ch/option-musique/">option musique</a>
-							<a class="dropdown-item" href="www.rts.ch/audio/">en direct</a>
-						</div>
-					</li>
-					<!-- Menu déroulant -->
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toogle="dropdown" aria-haspopup="true" aria-expanded="false">tv</a>
-						<!-- sous-menu -->
-						<div class="dropdown-menu" aria-labelledby="dropdown02">
-							<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
-							<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
-							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
-						</div>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="//programmes.rts.ch">programme tv</a></li>
-					<li class="nav-item"><a class="nav-link" href="www.rts.ch/play/meteo/">météo</a></li>
-					<!-- Menu déroulant -->
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toogle="dropdown" aria-haspopup="true" aria-expanded="false">plus</a>
-						<!-- sous-menu -->
-						<div class="dropdown-menu" aria-labelledby="dropdown03"></div>
-							<a class="dropdown-item" href="www.rts.ch/emissions/series/toutes-les-series">séries</a>
-							<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
-							<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
-							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
-							<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
-							<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
-							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
-							<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
-							<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
-							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
-							<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<!-- barre de recherche -->
-			<div>
-				<form>
-					<!-- logo loupe -->
-					<button type="submit"></button>
-					<input name="q" placeholder="RECHERCHE" type="text">
-				</form>
-			</div>
+				<!-- barre de recherche -->
+				<div>
+					<form>
+						<!-- logo loupe -->
+						<input name="recherche" placeholder="RECHERCHE" type="text">
+					</form>
+				</div>
 		</nav>
 	</header>
 	<main>
-	<!-- cover -->
-		<section>
-			
-			<div>
-				<a href="">
-					<!-- zone de contenu -->
-					<div>
-						<!-- en-tête -->
-						<p></p>
-						<!-- Titre -->
-						<p></p>
-						<!-- résumé -->
-						<p></p>
-					</div>
-				</a>
-			</div>
-		</section>
+    <!-- cover -->
+    <section id="section-cover" class="container-fluid d-block">		
+		<div class="row col-10 ml-md-auto mr-md-auto position-relative">
+			<a href="">
+					<div id="vignette" class="col-6 bg-vignette-cover m-4 p-3">
+							<!-- en-tête -->
+							<h2>en vidéo</h2>
+							<!-- Titre -->
+							<h1>coup d'état chez les bonobos</h1>
+							<!-- résumé -->
+							<p>coup d'état, le président bonotrump est en otage.</p>
+						</div>
+
+                <div class="inline-block"><img class="img-fluid" src="img/Cover.jpg" alt="couverture"></div>
+				<!-- zone de contenu -->         
+			</a>
+		</div>
+	</section>
 	<!-- en direct -->
-		<section>
+	<section>
 			<!-- zone défini -->
 			<div>
 				<!-- Titre de section -->
@@ -180,7 +185,7 @@
 					</ul>
 				</div>
 			</div>
-		</section>
+	</section>
 	<!-- sport -->
 		<section>
 			<!-- conteneur des deux blocs (p-e utile pour le responsive) -->
