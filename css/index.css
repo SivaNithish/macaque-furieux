@@ -89,9 +89,20 @@ header > div {
 
 a:hover
 {
-    color: white;
+    color: #999999;
     text-decoration: none;
     text-decoration: underline;
+}
+
+.link
+{
+    color: #999999;
+}
+
+.button-link
+{
+    width: 20em; /*Même taille que le bouton */
+    max-width: 20em;
 }
 
 .button-link:hover /* POUR LES LIENS DANS LES BOUTONS */
@@ -102,6 +113,8 @@ a:hover
 .h1 /* POUR TOUS LES H1 DANS LES SECTIONS / ARTICLES */
 {
     display: inline;
+    padding-left: 0px;
+    margin-left: 0px;
     font-size: 2.3rem;
     line-height: 2.8rem;
     color: #999999;
@@ -153,12 +166,138 @@ button:active
 {
     cursor: pointer;
 }
+.section-fond-sombre
+{
+    background-color: #666666;
+}
 
 /* FIN GENERAL */
 
+/*SECION RECOMMANDATION */
+#recommandation
+{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15%;
+    /*padding-right: 15%;*/
+}
+
+#recommandation-link
+{
+    float: right;
+    padding-right: 17%;
+}
+
+.video-header
+{
+    vertical-align: text-bottom;
+}
+
+.recommandation-cards
+{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    margin: 5px;
+    border-radius: 0px 0px 8px 8px;
+    width: 20%;
+    max-width: 20%;
+    border: none;
+}
+
+.recommandation-cards-img-bg
+{
+    background-color: #666666;
+}
+
+.recommandation-cards
+
+.recommandation-img
+{
+    height: 50%;
+    max-height: 50%;
+    width: 100%;
+}
+/* FIN RECOMMANDATION */
+
 /* CONCOURS */
+.concours-super-class
+{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    height: 210px;
+    max-height: 210px;
+}
 
+#concours-header-title
+{
+    display: inline;
+    padding-left: 0px;
+    margin-left: 0px;
+}
 
+#concours-header-button
+{
+    display: inline;
+    align-content: right;
+}
+
+#concours-button-link
+{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#concours-button
+{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.concours-cards
+{
+    display: inline;
+    border: 1px solid #f2f2f2;
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px;
+    margin: 0px;
+}
+
+.concours-img
+{
+    display: inline;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.concours-cards-body
+{
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+.concours-cards-body p
+{
+    color: black;
+}
+
+.link-cards
+{
+    text-decoration: none;
+    color: black;
+}
+
+.link-cards a:hover
+{
+    color: black;
+    text-decoration: none;
+}
 /* FIN CONCOURS */
 
 /* FOOTER */
@@ -171,7 +310,12 @@ button:active
     padding-bottom: 20px;
 }
 
-.footer-class a, p
+.footer-class a
+{
+    color: white;
+}
+
+.footer-class p /* Ne fonctionne pas si je le fais .class a, p */
 {
     color: white;
 }
