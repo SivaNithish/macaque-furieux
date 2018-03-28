@@ -227,21 +227,50 @@ button:active
     background-color: #666666;
 }
 
-/* FIN GENERAL */
-
-/*SECION RECOMMANDATION */
-#recommandation
+.body-section
 {
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 15%;
-    /*padding-right: 15%;*/
 }
+
+/* FIN GENERAL */
+
+/* SECTION PLUS */
+#section-plus
+{
+    background-color: white;
+}
+
+/* SECTION PLUS */
+
+/*SECION RECOMMANDATION */
+/*#recommandation
+{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15%;
+}*/
 
 #recommandation-link
 {
     float: right;
     padding-right: 17%;
+}
+
+#hidden1
+{
+    margin-right: 10px;
+}
+
+#hidden2
+{
+    margin-right: 10px;
+}
+
+.section-video
+{
+    overflow-x: hidden;
 }
 
 .video-header
@@ -265,8 +294,6 @@ button:active
 {
     background-color: #666666;
 }
-
-.recommandation-cards
 
 .recommandation-img
 {
