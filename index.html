@@ -646,9 +646,9 @@
 					</section> <!-- FIN RADIOS -->
 				</section> <!-- FIN SECTION GENERAL -->
 				<section class="concours-super-class body-section"> <!-- section CONCOURS A LA CON -->
-					<div class="row">
-						<h1 class="h1 col-6" id="concours-header-title">Concours maRTS</h1>
-						<div id="col-6 concours-header-button">
+					<div class="concours-header">
+						<h1 class="h1" id="concours-header-title">Concours maRTS</h1>
+						<div id="concours-header-button">
 							<a href="" target="" class="button-link ml-md-auto">
 								<button type="button" class="buttons-2" id="concours-button">Autres concours</button>
 							</a>
@@ -679,7 +679,7 @@
 		</main>
 		<footer class="footer-class">
 			<div class="footer-super-class"> <!-- div de tout le footer -->
-				<h1 class="">A propos de la RTS</h1>
+				<h1 id="footer-title">A propos de la RTS</h1>
 				<div class="row">
 				<ul class="col-sm-3 footer-ul"> <!-- liste 1 -->
 					<li> <!-- lien 1 -->
@@ -719,6 +719,8 @@
 					<li> <!-- lien 4 -->
 						<a class="" href="" target="_blank">La Boutique RTS</a>
 					</li>
+				</ul>
+				<ul class="col-3 footer-ul">
 					<li> <!-- lien 5 -->
 						<a class="" href="" target="_blank">RTSR</a>
 					</li>
@@ -735,8 +737,10 @@
 				</ul>
 				<div class="footer-end mr-md-auto">
 					<img src="./img/logoRTSSmall.png" alt="Logo de la RTS" id="logo-RTS-footer">
-					<p>RTS Radio Télévision Suisse, succursale de la Société suisse de radiodiffusion et télévision</p>
-					<img src="./img/logoSRG-SSRSmall.png" alt="Logo de la SRG et SSR" id="logo-SRG-SSR-footer">
+					<div id="footer-text">
+						<p>RTS Radio Télévision Suisse, succursale de la Société suisse de radiodiffusion et télévision</p>
+						<img src="./img/logoSRG-SSRSmall.png" alt="Logo de la SRG et SSR" id="logo-SRG-SSR-footer">
+					</div>
 				</div>
 			</div> <!-- FIN DIV FOOTER -->
 		</footer>
