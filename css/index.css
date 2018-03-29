@@ -177,9 +177,9 @@ body > header > div {
     font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica", "Arial", "Verdana", sans-serif;
 }
 .card-caption-sec > h2  {
-    font-size: 1.3em;
-    height: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.4em;
+    height: 1.4em;
+    line-height: 1.4em;
     font-weight: 400;
     text-align: left;
     color: #af001e;
@@ -188,9 +188,9 @@ body > header > div {
 }
 
 .card-caption-sec > p  {
-    font-size: 1.3em;
-    height: 1.3em;
-    line-height: 1.3em;
+    font-size: 1.1em;
+    height: 1.2em;
+    line-height: 1.2em;
     font-weight: 400;
     text-align: left;
     color:black;
@@ -198,6 +198,16 @@ body > header > div {
     margin-top: 0;
 }
 /* FIN card sport */
+
+/* culture */
+#culture-header {
+    vertical-align: top;
+}
+
+#culture-header > div > div + div {
+    text-align:right;
+}
+/* FIN culture */
 
 a:hover
 {
