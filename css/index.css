@@ -98,18 +98,48 @@ body > header > div {
 }
 
 /* Section : En direct */
-#header-en-direct {
+#header-en-direct, #header-au-programme {
     margin-bottom: 12.5px;
     padding-bottom: .2em;
     width: 100%;
 }
+/* FIN */
+
+/* section : programme */
+#header-au-programme > div {
+    top:0;
+    right:0;
+} 
+
+.programme-description {
+    vertical-align: top;
+    text-align: left;
+}
+
+.programme-description > h1 {
+    font-size: 1.8em;
+    font-weight: 500;
+    font-family: "Gotham Cond A", "Gotham Cond B", 'SRGSSR', "Helvetica", "Arial", "Verdana", sans-serif;
+    max-height: 1em;
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.programme-description > h1 + h1 {
+    color: #333333;;
+}
+#conteneur-programme {
+    text-align: center;
+}
+
+/* FIN */
     /* on peut réutiliser l'en-tête pour les zones qui y ressemblent */
 .en-tete {
     height:2.8rem;
     border-bottom: 1px solid #999999;
     font-size: 2.3rem;
     line-height: 2.8rem;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     bottom: 0;
     padding: 0;
@@ -148,6 +178,7 @@ body > header > div {
     /* permet de centrer les éléments section-sport et le div qui suit */
 #section-sport , #section-sport > div {
     text-align: center;
+    margin-left: auto;
 }
 
 .card-sport-caption {
@@ -200,6 +231,21 @@ body > header > div {
 /* FIN card sport */
 
 /* culture */
+
+#section-culture > div {
+    background: no-repeat 100% url("../images/culture/culture-bg.png");
+    max-width: 1070px;
+}
+
+#section-culture > div > div + div > div + div > h1 {
+    font-size: 1.5em;
+    color :#98b4fe;
+}
+#section-culture > div > div + div > div + div > p {
+    font-size: 1.5em;
+    color :white;
+}
+
 #culture-header {
     vertical-align: top;
 }

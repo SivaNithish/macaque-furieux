@@ -18,16 +18,16 @@
 </head>
 <body>
 <!-- culture -->
-    <section class="container-fluid my-4">
+    <section id="section-culture" class="container-fluid my-4 px-0">
         <!-- zone de contenu -->
-        <div class="container position-relative col-10">
+        <div class="container position-relative col-10 px-0">
                 <!-- illustration Couverture-->
-                <div class="position-relative d-table-cell col-3">
+                <div class="position-relative d-table-cell col-3 px-0">
                     <img class="img-fluid" src="images/culture/culture-illustration.png" alt="illustration">
                 </div>
                 <!-- titre, en-tête -->
-                <div id="culture-header" class=" d-table-cell pt-4 col-7">
-                    <div>
+                <div id="culture-header" class=" d-table-cell p-0 col-7 position-relative">
+                    <div class="pt-2">
                         <!-- logo RTS CULTURE -->
                         <div class="d-inline-block col-3">
                             <img class="img-fluid" src="images/culture/culture-header-logo.png" alt="logo-culture">
@@ -41,57 +41,62 @@
                     </div>
                     <!-- résumé -->
                     <div class="px-3">
-                        <h1>Livres</h1>
-                        <p>Pascal le chimpanzé raconte les ravages de l'alcoolisme dans famille..</p>
+                        <h1 class="pl-1">Livres</h1>
+                        <p class="pl-1">Pascal le chimpanzé raconte les ravages de l'alcoolisme dans famille..</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- au programme -->
-        <section>
-            <!-- en-tête -->
-            <header>
-                <h1>Au programme</h1>
-                <div>
-                    <a href="">
-                        <div class="block-header-link-url">
-                                <button type="button">Toute la culture</button>
-                        </div>
-                    </a>
-                </div>
-            </header>
-            <!-- conteneur RTS UN -->
-            <div>
-                <!-- aperçu de la vidéo de bande-annonce -->
-                <div>
-                    <img>
-                </div>
-                <!-- Description -->
-                <div>
-                    <!-- logo -->
-                    <img>
-                    <!-- texte -->
-                    <h1>ce soir 20h10</h1>
-                    <h1>passe-moi les jumelles</h1>
-                </div>
-            </div>
-            <!-- conteneur RTS DEUX -->
-            <div>
-                <!-- aperçu de la vidéo de bande-annonce -->
-                <div>
-                    <img>
-                </div>
-                <!-- Description -->
-                <div>
-                    <!-- logo -->
-                    <img>
-                    <!-- texte -->
-                    <h1>ce soir 21h10</h1>
-                    <h1>la jungle contre-attaque</h1>
-                    <p>les padawans gorilles se rebellent !</p>
-                </div>
-            </div>
     </section>
+        <!-- au programme -->
+<section class="container-fluid">
+            <!-- en-tête -->
+			<div class="row col-10 ml-md-auto mr-md-auto position-relative d-block en-tete">
+					<!-- Titre de section -->
+                    <header id="header-au-programme col-10" class="position-absolute">
+                        <h1 class="d-table-cell">Au programme</h1>
+                        <!--<div class="d-table-cell position-absolute">
+                                <a href="">
+                                    <div class="block-header-link-url">
+                                            <button type="button"> programme tv</button>
+                                    </div>
+                                </a>
+                        </div>-->
+                    </header>
+            </div>
+            <!-- conteneur des programmes -->
+            <div id="conteneur-programme" class="container col-11">
+            <!-- conteneur RTS UN -->
+            <div class="col-5 px-0 mt-2 d-inline-block">
+                <!-- aperçu de la vidéo de bande-annonce -->
+                <div class="d-table-cell">
+                    <img class="img-fluid" src="images/au-programme/jedi.jpg" alt="logo-rts-un">
+                </div>
+                <!-- Description -->
+                <div class="programme-description d-table-cell">
+                    <!-- logo -->
+                    <img class="img-fluid" src="images/au-programme/logo-rts-un.png" alt="logo-rts-un">
+                    <!-- texte -->
+                    <h1 class="my-0">ce soir 20h10</h1>
+                    <h1 class="my-0">La Jungle contre-attaque</h1>
+                </div>
+            </div>
+                <!-- conteneur RTS deux -->
+                <div class="col-5 px-0 mt-2 d-inline-block">
+                    <!-- aperçu de la vidéo de bande-annonce -->
+                    <div class="d-table-cell">
+                        <img class="img-fluid" src="images/au-programme/jedi.jpg" alt="logo-rts-un">
+                    </div>
+                                <!-- Description -->
+                                <div class=" programme-description d-table-cell">
+                                    <!-- logo -->
+                                    <img class="img-fluid" src="images/au-programme/logo-rts-deux.png" alt="logo-rts-un">
+                                    <!-- texte -->
+                                    <h1 class="my-0">ce soir 21h10</h1>
+                                    <h1 class="my-0">La Jungle contre-attaque II</h1>
+                                </div>
+                            </div>
+        </div>
+</section>
 	<!-- Appel du JS Bootstrap, en bas de page pour ne pas ralentir -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
