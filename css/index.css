@@ -4,6 +4,7 @@
     z-index: 1;
 }
 .z-i-2 {
+
     position: absolute;
     z-index: 2;
 }
@@ -287,7 +288,7 @@ body > header > div {
 /* culture */
 
 #section-culture > div {
-    background: no-repeat 100% url("../images/culture/culture-bg.png");
+    background: no-repeat 100% url("../img/culture/culture-bg.png");
     max-width: 1070px;
 }
 
