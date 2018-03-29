@@ -199,6 +199,16 @@ body > header > div {
 }
 /* FIN card sport */
 
+/* culture */
+#culture-header {
+    vertical-align: top;
+}
+
+#culture-header > div > div + div {
+    text-align:right;
+}
+/* FIN culture */
+
 a:hover
 {
     color: #999999;
