@@ -319,21 +319,21 @@ button:active
 /* SECTION VIDEO 2 */
 #videos-art1
 {
-    background-image: url("./img/singe-video6.jpg");
+    background: transparent url("./img/singe-video6.jpg") center center;
     background-color: #666666;
     height: 250px;
 }
 
 #videos-art2
 {
-    background-image: url("./img/singe-video5.jpg");
+    background: transparent url("./img/singe-video5.jpg") center center;
     background-color: #666666;
     height: 250px;
 }
 
 #videos-art3
 {
-    background-image: url("./img/canard-video.jpg");
+    background: transparent url("./img/canard-video.jpg") center center;
     background-color: #666666;
     height: 250px;
 }
@@ -360,7 +360,6 @@ button:active
 #plus-ligne2
 {
     padding-bottom: 15px;
-    /*margin-right: 24.5%;*/
 }
 
 .plus-cards
@@ -425,6 +424,11 @@ button:active
     height: 50%;
     max-height: 50%;
     width: 100%;
+}
+
+.recommandation-link:hover
+{
+    color: black;
 }
 /* FIN RECOMMANDATION */
 
@@ -494,12 +498,12 @@ button:active
     float: left;
     padding: 0px;
     margin: 0px;
+    margin-right: 15px;
 }
 
 .concours-cards-body
 {
-    margin-left: 50px;
-    padding-left: 50px;
+    /*margin-left: 50px;*/
 }
 
 .concours-cards-body p
@@ -513,7 +517,7 @@ button:active
     color: black;
 }
 
-.link-cards a:hover
+.link-cards:hover
 {
     color: black;
     text-decoration: none;
