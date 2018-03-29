@@ -18,88 +18,91 @@
 </head>
 <body>
 	<!-- 1er Header du site-->
-	<header class="container-fluid">
-			<!-- Barre réseaux, à propos, RadioTélévisé-->
-			<div class="row">
-					<!-- Contenu aligné en haut à droite -->
-					<div class="col-5 ml-md-auto">
-						<!-- zone réseaux sociaux -->
-						<div class="d-inline-block">
-							<span>Suivez nous sur :</span>
-							<a class="logo-sn facebook" target="_blank" href="https://www.facebook.com/rts.ch">FB</a>
-							   <a class="logo-sn twitter" target="_blank" href="https://twitter.com/radiotelesuisse?lang=fr">T</a>
-							<a class="logo-sn instagram" target="_blank" href="https://www.instagram.com/radiotelevisionsuisse/">I</a>
-						</div>
-						<!-- zone about -->
-						<div class="d-inline-block ml-md-4">
-							<div class="about"><a href="//www.rtsentreprise.ch/">A propos | Radio Télévision Suisse</a></div>
-						</div>
+	<!-- <header class="container-fluid"> -->
+	<header class="">
+		<!-- Barre réseaux, à propos, RadioTélévisé-->
+		<div class="row">
+				<!-- Contenu aligné en haut à droite -->
+				<div class="col-5 ml-md-auto">
+					<!-- zone réseaux sociaux -->
+					<div class="d-inline-block">
+						<span>Suivez nous sur :</span>
+						<a class="logo-sn facebook" target="_blank" href="https://www.facebook.com/rts.ch">FB</a>
+							  <a class="logo-sn twitter" target="_blank" href="https://twitter.com/radiotelesuisse?lang=fr">T</a>
+						<a class="logo-sn instagram" target="_blank" href="https://www.instagram.com/radiotelevisionsuisse/">I</a>
 					</div>
-			</div>
-			<!-- Barre de navigation -->
-		<nav class="navbar navbar-toogleable-md navbar-dark navbar-expand-md" id="menuPrincipal">
+					<!-- zone about -->
+					<div class="d-inline-block ml-md-4">
+						<div class="about"><a href="//www.rtsentreprise.ch/">A propos | Radio Télévision Suisse</a></div>
+					</div>
+				</div>
+		</div>
+		<!-- Barre de navigation -->
+		<nav class="navbar navbar-toogleable-md navbar-dark navbar-expand-md body-section" id="menuPrincipal">
 				<!-- Logo ma RTS -->
-				<a class="navbar-brand" href="www.rts.ch">Ma RTS</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-				</button>
+				<div id="header-logo">
+					<a class="navbar-brand" id="@header-logo-link" href="www.rts.ch"><span id="header-title">ma</span><img src="./img/logoRTSSmall.png" alt="logoRTS"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
 				<!-- div qui regroupe tout le menu -->
 				<div class="collapse navbar-collapse" id="menuDeroulant">
 					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link" href="www.rts.ch/info/">info</a></li>
-						<li class="nav-item"><a class="nav-link" href="www.rts.ch/sport/">sport</a></li>
-						<li class="nav-item"><a class="nav-link" href="www.rts.ch/info/culture/">culture</a></li>
-						<li class="nav-item"><a class="nav-link" href="www.rts.ch/play/">play</a></li>
+						<li class="nav-item header-li"><a class="nav-link header-link" href="www.rts.ch/info/">INFO</a></li>
+						<li class="nav-item header-li"><a class="nav-link header-link" href="www.rts.ch/sport/"> SPORT</a></li>
+						<li class="nav-item header-li"><a class="nav-link header-link" href="www.rts.ch/info/culture/">CULTURE</a></li>
+						<li class="nav-item header-li"><a class="nav-link header-link" href="www.rts.ch/play/">PLAY</a></li>
 						<!-- Menu déroulant -->
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">radio</a>
+						<li class="nav-item dropdown header-li">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">RADIO</a>
 							<!-- sous-menu -->
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="www.rts.ch/emissions-az/radio/">emissions a-z</a>
-								<a class="dropdown-item" href="//programmesradio.rts.ch/la-1ere/">la 1ère</a>
-								<a class="dropdown-item" href="//programmesradio.rts.ch/espace-2/">espace 2</a>
-								<a class="dropdown-item" href="//programmesradio.rts.ch/couleur3/">couleur 3</a>
-								<a class="dropdown-item" href="//programmesradio.rts.ch/option-musique/">option musique</a>
-								<a class="dropdown-item" href="www.rts.ch/audio/">en direct</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">EMISSION A-Z</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">LA 1ERE</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">ESPACE 2</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">COULEUR 3</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">OPTION MUSIQUE</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">EN DIRECT</a>
 							</div>
 						</li>
 						<!-- Menu déroulant -->
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">tv</a>
+						<li class="nav-item dropdown header-li">
+							<a class="nav-link dropdown-toggle header-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TV</a>
 							<!-- sous-menu -->
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="www.rts.ch/emissions-az/tv/">tv</a>
-								<a class="dropdown-item" href="//programme.rts.ch/">programme tv</a>
-								<a class="dropdown-item" href="www.rts.ch/play/direct/">en direct</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">EMISSION A-Z</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">PROGRAMME TV</a>
+								<a class="dropdown-item header-li header-link" href="" target="_blank">EN DIRECT</a>
 							</div>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="//programmes.rts.ch">programme tv</a></li>
-						<li class="nav-item"><a class="nav-link" href="www.rts.ch/play/meteo/">météo</a></li>
+						<li class="nav-item header-li"><a class="nav-link header-link" href="//programmes.rts.ch">PROGRAMME TV</a></li>
+						<li class="nav-item header-li"><a class="nav-link header-link" href="www.rts.ch/play/meteo/">MÉTÉO</a></li>
 						<!-- Menu déroulant -->
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								plus
+						<li class="nav-item dropdown header-li">
+							<a class="nav-link dropdown-toggle header-link" href="" target="_blanck" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								PLUS
 							</a>
 							<!-- sous-menu -->
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="#">séries</a>
-								<a class="dropdown-item" href="#">tv</a>
-								<a class="dropdown-item" href="#">programme tv</a>
-								<a class="dropdown-item" href="#">en direct</a>
-								<a class="dropdown-item" href="#">tv</a>
-								<a class="dropdown-item" href="#">programme tv</a>
-								<a class="dropdown-item" href="#">en direct</a>
-								<a class="dropdown-item" href="#">tv</a>
-								<a class="dropdown-item" href="#">programme tv</a>
-								<a class="dropdown-item" href="#">en direct</a>
-								<a class="dropdown-item" href="#">en direct</a>
+								<a class="dropdown-item header-li header-link" href="#">SÉRIES</a>
+								<a class="dropdown-item header-li header-link" href="#">TATAKI</a>
+								<a class="dropdown-item header-li header-link" href="#">DOCUMENTAIRES</a>
+								<a class="dropdown-item header-li header-link" href="#">LES ARCHIVES DE LA RTS</a>
+								<a class="dropdown-item header-li header-link" href="#">RTS DÉCOUVERTE</a>
+								<a class="dropdown-item header-li header-link" href="#">RTS FICTION</a>
+								<a class="dropdown-item header-li header-link" href="#">RTS KIDS</a>
+								<a class="dropdown-item header-li header-link" href="#">RTS RELIGION</a>
+								<a class="dropdown-item header-li header-link" href="#">RTS MACAQUES</a>
+								<a class="dropdown-item header-li header-link" href="#">RTS SINGES</a>
+								<a class="dropdown-item header-li header-link" href="#">RTS OUISTITI</a>
 							</div>
 						</li>
 					</ul>
 				</div>
 				<!-- barre de recherche -->
 				<div>
-					<form>
+					<form id="header-recherche">
 						<!-- logo loupe -->
 						<input name="recherche" placeholder="RECHERCHE" type="text">
 					</form>
@@ -630,7 +633,7 @@
 									</div> <!-- FIN IMG -->
 									<div class="card-body">
 										<h5 class="card-title">Émeutes au zoo</h5>
-										<p class="card-text">La pénurie de banane provoque des émeutes.</p>
+										<p class="card-text">Une pénurie de banane provoque des émeutes.</p>
 									</div>
 								</a>
 							</div> <!-- FIN ARTICLE 1 -->
@@ -670,7 +673,7 @@
 						</div>
 					</div> <!-- FIN LIGNE 2 -->
 				</section> <!-- FIN PLUS -->
-				<section class="section-fond-sombre body-section"> <!-- SECTION GENERAL -->
+				<section class="section-fond-sombre body-section" id="recommandation-section"> <!-- SECTION VIDEOS -->
 					<section> <!-- TENDANCES VIDEOS DU MOMENT -->
 						<div> <!-- VIDEO -->
 							<div class="video-header"> <!-- VIDEO HEADER -->
@@ -679,40 +682,48 @@
 							</div> <!-- FIN VIDEO HEADER -->
 							<section class="row hidden"> <!-- VIDEO RECOMMANDE -->
 								<div class="col-3 card recommandation-cards"> <!-- CARD 1 -->
-									<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
-										<img class="card-img-top recomandation-img" src="./img/singe-video1.jpg" alt="Une vidéo de singe">
-									</div> <!-- FIN BACKGROUND IMG -->
-									<div class="card-body">
-										<h5 class="card-title">Nouvelle mode</h5>
-										<p class="card-text">L'actu en vidéo !</p>
-									</div>						
+									<a class="link-cards recommandation-link" href="" target="_blank">
+										<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
+											<img class="card-img-top recomandation-img" src="./img/singe-video1.jpg" alt="Une vidéo de singe">
+										</div> <!-- FIN BACKGROUND IMG -->
+										<div class="card-body">
+											<h5 class="card-title">Nouvelle mode</h5>
+											<p class="card-text">L'actu en vidéo !</p>
+										</div>
+									</a>						
 								</div> <!-- FIN CARD 1 -->
 								<div class="col-3 card recommandation-cards"> <!-- CARD 2 -->
-									<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
-										<img class="card-img-top recomandation-img" src="./img/singe-video2.jpg" alt="Une vidéo de singe">
-									</div> <!-- FIN BACKGROUND IMG -->
-									<div class="card-body">
-										<h5 class="card-title">Nouveautés à Hollywood</h5>
-										<p class="card-text">L'actu people !</p>
-									</div>
+									<a class="link-cards recommandation-link" href="" target="_blank">
+										<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
+											<img class="card-img-top recomandation-img" src="./img/singe-video2.jpg" alt="Une vidéo de singe">
+										</div> <!-- FIN BACKGROUND IMG -->
+										<div class="card-body">
+											<h5 class="card-title">Nouveautés à Hollywood</h5>
+											<p class="card-text">L'actu people !</p>
+										</div>
+									</a>
 								</div> <!-- FIN CARD 2 -->
 								<div class="col-3 card recommandation-cards"> <!-- CARD 3 -->
-									<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
-										<img class="card-img-top recomandation-img" src="./img/singe-video3.jpg" alt="Une vidéo de singe">
-									</div> <!-- FIN BACKGROUND IMG -->
-									<div class="card-body">
-										<h5 class="card-title">Incroyable mais vrai ...</h5>
-										<p class="card-text">Parsa se marie !</p>
-									</div>						
+									<a class="link-cards recommandation-link" href="" target="_blank">
+										<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
+											<img class="card-img-top recomandation-img" src="./img/singe-video3.jpg" alt="Une vidéo de singe">
+										</div> <!-- FIN BACKGROUND IMG -->
+										<div class="card-body">
+											<h5 class="card-title">Incroyable mais vrai ...</h5>
+											<p class="card-text">Parsa se marie !</p>
+										</div>
+									</a>						
 								</div> <!-- FIN CARD 3 -->
 								<div class="col-3 card recommandation-cards"> <!-- CARD 4 -->
-									<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
-										<img class="card-img-top recomandation-img" src="./img/singe-video4.jpg" alt="Une vidéo de singe">
-									</div> <!-- FIN BACKGROUND IMG -->
-									<div class="card-body">
-										<h5 class="card-title">Facebook cartonne</h5>
-										<p class="card-text">Les meilleures séquences !</p>
-									</div>						
+									<a class="link-cards recommandation-link" href="" target="_blank">
+										<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
+											<img class="card-img-top recomandation-img" src="./img/singe-video4.jpg" alt="Une vidéo de singe">
+										</div> <!-- FIN BACKGROUND IMG -->
+										<div class="card-body">
+											<h5 class="card-title">Facebook cartonne</h5>
+											<p class="card-text">Les meilleures séquences !</p>
+										</div>
+									</a>						
 								</div> <!-- FIN CARD 4 -->
 							</section> <!-- FIN VIDEO RECOMMANDE -->
 						</div> <!-- FIN VIDEO -->
@@ -724,50 +735,58 @@
 							</div> <!-- FIN RADIO HEADER -->
 							<section class="row hidden"> <!-- TENDANCES RADIO DU MOMENT -->
 								<div class="col-3 card recommandation-cards"> <!-- CARD 1 -->
-									<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
-										<img class="card-img-top recomandation-img" src="./img/singe-radio1.jpg" alt="Un audio de singe">
-									</div> <!-- FIN BACKGROUND IMG -->
-									<div class="card-body">
-										<h5 class="card-title">Freysinger raconte</h5>
-										<p class="card-text">Audio de l'info !</p>
-									</div>						
+									<a class="link-cards recommandation-link" href="" target="_blank">
+										<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
+											<img class="card-img-top recomandation-img" src="./img/singe-radio1.jpg" alt="Un audio de singe">
+										</div> <!-- FIN BACKGROUND IMG -->
+										<div class="card-body">
+											<h5 class="card-title">Freysinger raconte</h5>
+											<p class="card-text">Audio de l'info !</p>
+										</div>
+									</a>						
 								</div> <!-- FIN CARD 1 -->
 								<div class="col-3 card recommandation-cards"> <!-- CARD 2 -->
-									<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
-										<img class="card-img-top recomandation-img" src="./img/singe-radio2.jpg" alt="Un audio de singe">
-									</div> <!-- FIN BACKGROUND IMG -->
-									<div class="card-body">
-										<h5 class="card-title">Trump à l'ONU</h5>
-										<p class="card-text">Le discours de Trump</p>
-									</div>
+									<a class="link-cards recommandation-link" href="" target="_blank">
+										<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
+											<img class="card-img-top recomandation-img" src="./img/singe-radio2.jpg" alt="Un audio de singe">
+										</div> <!-- FIN BACKGROUND IMG -->
+										<div class="card-body">
+											<h5 class="card-title">Trump à l'ONU</h5>
+											<p class="card-text">Le discours de Trump</p>
+										</div>
+									</a>
 								</div> <!-- FIN CARD 2 -->
 								<div class="col-3 card recommandation-cards"> <!-- CARD 3 -->
-									<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
-										<img class="card-img-top recomandation-img" src="./img/singe-radio3.jpg" alt="Un audio de singe">
-									</div> <!-- FIN BACKGROUND IMG -->
-									<div class="card-body">
-										<h5 class="card-title">Jeunesse</h5>
-										<p class="card-text">Les bébés chimpanzés abusent des champignons</p>
-									</div>						
+									<a class="link-cards recommandation-link" href="" target="_blank">
+										<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
+											<img class="card-img-top recomandation-img" src="./img/singe-radio3.jpg" alt="Un audio de singe">
+										</div> <!-- FIN BACKGROUND IMG -->
+										<div class="card-body">
+											<h5 class="card-title">Jeunesse</h5>
+											<p class="card-text">Les bébés chimpanzés abusent des champignons</p>
+										</div>
+									</a>						
 								</div> <!-- FIN CARD 3 -->
 								<div class="col-3 card recommandation-cards"> <!-- CARD 4 -->
-									<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
-										<img class="card-img-top recomandation-img" src="./img/singe-radio4.jpg" alt="Un audio de singe">
-									</div> <!-- FIN BACKGROUND IMG -->
-									<div class="card-body">
-										<h5 class="card-title">Mariage pour tous</h5>
-										<p class="card-text">On arrête pas le progrès</p>
-									</div>						
+									<a class="link-cards recommandation-link" href="" target="_blank">
+										<div class="recommandation-cards-img-bg"> <!-- ACKGROUND IMG -->
+											<img class="card-img-top recomandation-img" src="./img/singe-radio4.jpg" alt="Un audio de singe">
+										</div> <!-- FIN BACKGROUND IMG -->
+										<div class="card-body">
+											<h5 class="card-title">Mariage pour tous</h5>
+											<p class="card-text">On arrête pas le progrès</p>
+										</div>
+									</a>						
 								</div> <!-- FIN CARD 4 -->
 							</section> <!-- FIN TENDANCES RADIOS -->
 						</div> <!-- FIN RADIO -->
 					</section> <!-- FIN RADIOS -->
 				</section> <!-- FIN SECTION GENERAL -->
-				<section class="concours-super-class body-section"> <!-- section CONCOURS A LA CON -->
-					<div class="row">
-						<h1 class="h1 col-6" id="concours-header-title">Concours maRTS</h1>
-						<div id="col-6 concours-header-button">
-							<a href="" target="" class="button-link ml-md-auto">
+				<section class="concours-super-class body-section"> <!-- section CONCOURS -->
+					<div class="concours-header">
+						<h1 class="h1" id="concours-header-title">Concours maRTS</h1>
+						<div id="concours-div-button">
+							<a href="" target="" class="button-link">
 								<button type="button" class="buttons-2" id="concours-button">Autres concours</button>
 							</a>
 						</div>
@@ -776,7 +795,7 @@
 						<div class="col-5 concours-cards">
 							<a href="" target="_blank" class="link-cards">
 								<img src="./img/singe-savant.jpg" alt="Suprise ! C'était une image !" class="concours-img">
-								<div class="">
+								<div class="concours-cards-body">
 									<h2>Concours débile</h2>
 									<p>Venez gagner un nouveau foie !</p>
 								</div>
@@ -795,9 +814,9 @@
 				</section> <!-- FIN CONCOURS -->
 			</section>
 		</main>
-		<footer class="footer-class">
+		<footer class="container-fluid footer-class">
 			<div class="footer-super-class"> <!-- div de tout le footer -->
-				<h1 class="">A propos de la RTS</h1>
+				<h1 id="footer-title">A propos de la RTS</h1>
 				<div class="row">
 				<ul class="col-sm-3 footer-ul"> <!-- liste 1 -->
 					<li> <!-- lien 1 -->
@@ -837,6 +856,8 @@
 					<li> <!-- lien 4 -->
 						<a class="" href="" target="_blank">La Boutique RTS</a>
 					</li>
+				</ul>
+				<ul class="col-3 footer-ul">
 					<li> <!-- lien 5 -->
 						<a class="" href="" target="_blank">RTSR</a>
 					</li>
@@ -853,8 +874,10 @@
 				</ul>
 				<div class="footer-end mr-md-auto">
 					<img src="./img/logoRTSSmall.png" alt="Logo de la RTS" id="logo-RTS-footer">
-					<p>RTS Radio Télévision Suisse, succursale de la Société suisse de radiodiffusion et télévision</p>
-					<img src="./img/logoSRG-SSRSmall.png" alt="Logo de la SRG et SSR" id="logo-SRG-SSR-footer">
+					<div id="footer-text">
+						<p>RTS Radio Télévision Suisse, succursale de la Société suisse de radiodiffusion et télévision</p>
+						<img src="./img/logoSRG-SSRSmall.png" alt="Logo de la SRG et SSR" id="logo-SRG-SSR-footer">
+					</div>
 				</div>
 			</div> <!-- FIN DIV FOOTER -->
 		</footer>

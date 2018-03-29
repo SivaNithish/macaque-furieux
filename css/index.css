@@ -22,6 +22,7 @@
 /* section cover */
 #section-cover {
     background-color: #333333;
+    padding-left: 7%;
 }
 
 #section-cover > div {
@@ -92,9 +93,61 @@ body > header > div {
     position: relative;
     font-size:13px;
 }
+
 #menuPrincipal  {
     background-color: #333333;
     color: white;
+    padding-right: 15%;
+    padding-bottom: 50px;
+    height: 50px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+#menu-deroulant
+{
+
+}
+
+.header-li
+{
+    font-size: 12px;
+    color: white;
+}
+
+.header-link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.header-link:hover
+{
+    background-color: black;
+    opacity: 0.8;
+}
+
+#header-title
+{
+    font-size: 40px;
+}
+
+#header-logo
+{
+    
+}
+
+#header-logo-link
+{
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+}
+
+#header-recherche
+{
+    /*padding-right: -250px;*/
+    /*padding-top: 50px;*/
 }
 
 /* Section : En direct */
@@ -171,6 +224,7 @@ body > header > div {
     height:36px;
     width:36px;
 }
+
 /* card sport */
 .card-sport{
     width:50%;
@@ -359,59 +413,134 @@ button:active
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 15%;
+    /*padding-right: 15%;*/
 }
 /* FIN GENERAL */
 
 /* SECTION VIDEO 2 */
+#videos-section
+{
+    padding-bottom: 15px;
+}
+
+/* .videos-button
+{
+    display: inline;
+    float: right;
+}
+
+.videos-header-button
+{
+    padding-right: 30%;
+}*/
+
+.videos-text
+{
+    padding: 0px;
+    margin: 0px;
+    height: 33%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.videos-col-small
+{
+    padding: 0px;
+}
+
+.videos-text-big
+{
+    width: 78%;
+}
+
+.videos-small
+{
+    width: 350px;
+    height: 250px;
+}
+
+.videos-big
+{
+    width: 700px;
+    height: 500px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 #videos-art1
 {
-    background-image: url("./img/singe-video6.jpg");
+    background-image: url("../img/singe-video6.jpg");
     background-color: #666666;
-    height: 250px;
+    background-repeat: no-repeat;
 }
 
 #videos-art2
 {
-    background-image: url("./img/singe-video5.jpg");
+    background-image: url("../img/singe-video5.jpg");
     background-color: #666666;
-    height: 250px;
+    background-repeat: no-repeat;
 }
 
 #videos-art3
 {
-    background-image: url("./img/canard-video.jpg");
+    background-image: url("../img/canard-video.jpg");
     background-color: #666666;
-    height: 250px;
+    background-repeat: no-repeat;
 }
 
-.videos-img
+#videos-ligne2
 {
-    z-index: -1;
+    padding-right: 10%;
 }
 
+#audio-art1
+{
+    background-image: url("../img/audio-lemurien.jpg");
+    background-color: #666666;
+    background-repeat: no-repeat;
+}
+
+#audio-art2
+{
+    background-image: url("../img/audio-gorille.jpg");
+    background-color: #666666;
+    background-repeat: no-repeat;
+}
+
+#audio-art3
+{
+    background-image: url("../img/audio-singes.jpg");
+    background-color: #666666;
+    background-repeat: no-repeat;
+}
 /* FIN SECTION VIDEO 2 */
 
 /* SECTION PLUS */
 #section-plus
 {
     background-color: white;
-    margin-right: 20%;
+    /*margin-right: 20%;*/
 }
 
 #plus-ligne1
 {
     padding-bottom: 15px;
+    width: 900px;
 }
 
 #plus-ligne2
 {
     padding-bottom: 15px;
-    /*margin-right: 24.5%;*/
+    padding-right: 17%;
 }
 
 .plus-cards
 {
     padding: 0px;
+    width: 33%;
 }
 
 .plus-cards h5
@@ -433,10 +562,9 @@ button:active
 /* FIN SECTION PLUS */
 
 /*SECION RECOMMANDATION */
-#recommandation-link
+#recommandation-section
 {
-    float: right;
-    padding-right: 17%;
+    /*padding-right: 0px;*/
 }
 
 .section-video
@@ -472,6 +600,18 @@ button:active
     max-height: 50%;
     width: 100%;
 }
+
+.recommandation-link:hover
+{
+    color: black;
+}
+
+#recommandation-link
+{
+    float: right;
+    padding-right: 18%;
+    padding-top: 17px;
+}
 /* FIN RECOMMANDATION */
 
 /* CONCOURS */
@@ -479,8 +619,13 @@ button:active
 {
     background-color: white;
     height: 210px;
-    max-height: 210px;
-    margin-bottom: 30px;
+    max-height: 230px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.concours-header
+{
+    padding-bottom: 20px;
 }
 
 #concours-gauche
@@ -500,10 +645,10 @@ button:active
     margin-left: 0px;
 }
 
-#concours-header-button
+#concours-div-button
 {
-    display: inline;
-    align-content: right;
+    float: right;
+    padding-right: 17%;
 }
 
 #concours-button-link
@@ -514,8 +659,9 @@ button:active
 
 #concours-button
 {
-    margin-right: 0px;
-    padding-right: 0px;
+    /*padding-right: 17%;*/
+    min-width: 2.8em;
+    width: 20em;
 }
 
 .concours-cards
@@ -535,12 +681,12 @@ button:active
     float: left;
     padding: 0px;
     margin: 0px;
+    margin-right: 15px;
 }
 
 .concours-cards-body
 {
-    margin-left: 50px;
-    padding-left: 50px;
+    /*margin-left: 50px;*/
 }
 
 .concours-cards-body p
@@ -554,7 +700,7 @@ button:active
     color: black;
 }
 
-.link-cards a:hover
+.link-cards:hover
 {
     color: black;
     text-decoration: none;
@@ -566,7 +712,6 @@ button:active
 {
     color: white;
     background-color: #131313;
-
     padding-bottom: 20px;
 }
 
@@ -586,11 +731,26 @@ button:active
     padding-left: 0px;
     margin-right: 15%;
     margin-left: 15%;
+    min-width: 1000px;
+    max-height: 240px;
+    min-height: 240px;
+}
+
+#footer-title
+{
+    font-size: 22px;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 .footer-ul
 {
     display: block;
+}
+
+.footer-ul li
+{
+    font-size: 14px;
 }
 
 .footer-li /* liens en bas de page du footer */
@@ -626,9 +786,17 @@ button:active
 
 }
 
+#footer-text
+{
+    display: inline;
+    float: right;
+    margin-top: 17px;
+}
+
 #logo-SRG-SSR-footer
 {
     vertical-align: bottom;
     padding-bottom: 2px;
+    display: inline;
 }
 /* FIN FOOTER */
